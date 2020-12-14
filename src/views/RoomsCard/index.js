@@ -24,9 +24,7 @@ class RoomsCard extends Component {
       <div className='Container'>
          <h1 className='ClassTitle'>Квартиры</h1>
         <div className='DivForCard'>
-          {RoomsList &&
-            RoomsList.response.length &&
-             RoomsList.response.map((row, i) => (
+          {RoomsList.response.map((row, i) => (
               <div className='CardStyle'>
                 <div className={'title'}>
                  <img className={'CardImg'} src={apartment} alt={'SomeApartment'}/>
