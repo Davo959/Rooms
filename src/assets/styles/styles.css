@@ -1,0 +1,105 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.title h3{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.AboutRoom{
+    display: flex;
+    flex-direction: column;
+}
+.AboutRoom p {
+    margin: 10px 0 0 0 ;
+}
+.AboutRoom  span{
+    color: #5f5e5e;
+    font-weight: bold;
+}
+
+.hrStyle {
+    width: 100%;
+    background:#5f5e5e ;
+    border: 1px solid #5f5e5e;
+}
+
+
+
+
+
+.DivForCard{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.CardStyle{
+    background: whitesmoke;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
+    border: 1px solid gray ;
+    padding: 10px 10px 10px 10px;
+    border-radius: 6px;
+
+}
+.CardImg{
+    width: 250px;
+    height: 125px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+.LikeButton{
+    outline: none;
+    width: 70px;
+    height: 50px;
+    margin: 0 auto;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+.LikeButton img{
+    width: 50px;
+}
+.LikeButton img:hover{
+    width: 60px;
+}
+.LikeHeartButton{
+    outline: none;
+    width: 70px;
+    height: 50px;
+    margin: 0 auto;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+.LikeHeartButton img{
+    width: 40px;
+}
+.LikeHeartButton img:hover{
+    width: 50px;
+}
+
+.ButtonDiv{
+    width: 100%;
+    display: flex;
+}
+
+
